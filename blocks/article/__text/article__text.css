@@ -1,0 +1,13 @@
+.article__text{
+    grid-area: text;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 1.63em;
+}
+@media all and (min-width: 1024px){
+    .article__text{
+        padding-right: 148px;
+    }
+}

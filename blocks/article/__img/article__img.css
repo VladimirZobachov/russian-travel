@@ -1,0 +1,10 @@
+.article__img{
+    grid-area: img;
+    width: 100%;
+    max-width: 460px;
+}
+@media all and (min-width: 1024px){
+    .article__img{
+        padding-left: 148px;
+    }
+}

@@ -1,0 +1,36 @@
+.footer__image{
+    top: 0;
+    bottom: 0;
+    left:0;
+    position: absolute;
+    margin-bottom: 92px;
+    width: 100%;
+    background-image: url("../../../images/cover-trains.jpg");
+    background-size: cover;
+    opacity: 80%;
+    transition: opacity 0.3s linear;
+}
+.footer__image:hover{
+    opacity: 30%;
+    cursor: pointer;
+}
+@media all and (min-width: 320px) {
+    .footer__image{
+        min-height: 200px;
+    }
+}
+@media all and (min-width: 768px) {
+    .footer__image{
+        min-height: 480px;
+    }
+}
+@media all and (min-width: 1024px) {
+    .footer__image{
+        min-height: 640px;
+    }
+}
+@media all and (min-width: 1280px) {
+    .footer__image{
+        min-height: 740px;
+    }
+}

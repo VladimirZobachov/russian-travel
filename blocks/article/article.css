@@ -1,0 +1,18 @@
+.article{
+    display: grid;
+    grid-template-areas:
+    "title props"
+    "img text";
+    width: 100%;
+    margin-top: 80px;
+    gap: 40px;
+}
+@media all and (max-width: 768px){
+    .article{
+        grid-template-areas:
+                "title"
+                "props"
+                "img"
+                "text";
+    }
+}

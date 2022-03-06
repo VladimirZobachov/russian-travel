@@ -1,0 +1,29 @@
+.article__title{
+    grid-area: title;
+    font-family: Inter ;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: #FFFFFF;
+    max-width: 460px;
+    padding-left: 16px;
+    margin: 0;
+}
+@media all and (max-width: 768px) {
+    .article__title{
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+@media all and (max-width: 1024px) {
+    .article__title{
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+@media all and (min-width: 1024px){
+    .article__title{
+        padding-left: 148px;
+    }
+}

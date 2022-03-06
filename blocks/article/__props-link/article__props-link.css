@@ -1,0 +1,11 @@
+.article__props-link{
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: underline;
+    transition: opacity 0.3s linear;
+}
+.article__props-link:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}

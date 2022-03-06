@@ -1,0 +1,12 @@
+.article__props {
+    display: grid;
+    grid-area: props;
+    grid-template-rows: 12px 22px;
+    gap: 12px;
+    align-self: end;
+    align-items: start;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    padding-left: 16px;
+}

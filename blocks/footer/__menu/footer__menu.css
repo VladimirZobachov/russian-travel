@@ -1,0 +1,14 @@
+.footer__menu{
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (max-width: 768px) {
+    .footer__menu{
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        gap: 32px;
+    }
+}
