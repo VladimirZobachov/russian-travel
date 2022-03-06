@@ -1,14 +1,13 @@
-.footer__row{
+.footer__copyright{
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 92%;
+    width: 100%;
     margin-bottom: 24px;
-    margin-left: 48px;
     align-self: start;
 }
 @media all and (max-width: 768px) {
-    .footer__row{
+    .footer__copyright{
         margin-left: 16px;
         flex-direction: column;
     }
