@@ -6,6 +6,6 @@
     transition: opacity 0.3s linear;
 }
 .article__props-link:hover{
-    opacity: 0.5;
+    opacity: 0.8;
     cursor: pointer;
 }

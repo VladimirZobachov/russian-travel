@@ -8,3 +8,8 @@
         padding-left: 148px;
     }
 }
+@media all and (max-width: 768px){
+  .article__img{
+    max-width: 100%;
+  }
+}

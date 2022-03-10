@@ -4,13 +4,15 @@
     max-width: 560px;
     font-size: 72px;
     line-height: 76px;
+    font-weight: 900;
     color: #FFFFFF;
     text-align: center;
     position: relative;
     text-decoration: none;
+    z-index: 2;
 }
 @media all and (max-width: 768px) {
-    .footer__title{
+    .cover__title{
         font-size: 32px;
         line-height: 1.09em;
     }
