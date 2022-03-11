@@ -10,9 +10,7 @@
 
 @media all and (max-width: 768px) {
     .footer__menu{
-        display: grid;
         grid-auto-flow: row;
-
         gap: 32px;
     }
 }
