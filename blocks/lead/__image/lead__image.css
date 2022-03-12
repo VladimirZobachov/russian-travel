@@ -1,4 +1,10 @@
 .lead__image{
   display: flex;
   width: 100%;
+  margin: auto;
+}
+@media all and (max-width: 1024px){
+  .lead__image{
+    max-width: 928px;
+  }
 }
