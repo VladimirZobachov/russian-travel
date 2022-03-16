@@ -2,3 +2,19 @@
   padding-top: 25px;
   margin: 0;
 }
+@media all and (max-width: 1025px){
+  .article__paragraph{
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+}
+@media all and (max-width: 769px){
+  .article__paragraph{
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+}
+@media all and (max-width: 321px){
+  .article__paragraph{
+  }
+}

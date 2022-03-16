@@ -1,18 +1,13 @@
 .places__list{
     list-style-type: none;
-    margin: 0;
-    padding: 0 48px 0 48px;
+    margin: auto;
+    padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 321px){
     .places__list{
-        padding: 0 16px 0 16px;
-    }
-}
-@media all and (max-width: 1024px) {
-    .places__list{
-        padding: 0 24px 0 24px;
+        gap: 11px;
     }
 }

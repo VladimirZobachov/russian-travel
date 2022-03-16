@@ -8,13 +8,14 @@
   padding-top: 40px;
   margin: 0;
 }
-@media all and (max-width: 768px){
-  .intro__text{
-    max-width: 288px;
-  }
-}
+
 @media all and (max-width: 1024px){
   .intro__text{
     max-width: 720px;
+  }
+}
+@media all and (max-width: 769px){
+  .intro__text{
+    line-height: 162%;
   }
 }

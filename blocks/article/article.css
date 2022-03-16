@@ -7,12 +7,24 @@
     gap: 24px;
     padding-top: 80px;
 }
-@media all and (max-width: 768px){
+@media all and (max-width: 1025px){
+    .article{
+        gap: 31px;
+    }
+}
+@media all and (max-width: 769px){
+    .article{
+        gap: 31px;
+        padding-top: 65px;
+    }
+}
+@media all and (max-width: 321px){
     .article{
         grid-template-areas:
-                "title"
-                "props"
-                "img"
-                "text";
+        "title"
+        "props"
+        "img"
+        "text";
+        gap: 31px;
     }
 }

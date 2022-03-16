@@ -4,13 +4,19 @@
     max-width: 460px;
     padding-top: 23px;
 }
-@media all and (min-width: 1024px){
+@media all and (max-width: 1025px){
     .article__img{
-        padding-left: 148px;
+        max-width: 440px;
+        padding-top: 15px;
     }
 }
-@media all and (max-width: 768px){
-  .article__img{
-    max-width: 100%;
-  }
+@media all and (max-width: 769px){
+    .article__img{
+        max-width: 340px;
+    }
+}
+@media all and (max-width: 321px){
+    .article__img{
+        padding-top: 2px;
+    }
 }

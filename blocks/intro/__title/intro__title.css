@@ -9,15 +9,16 @@
   margin: 0px;
   padding: 0px;
 }
-@media all and (max-width: 768px){
-  .intro__title{
-    max-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-}
 @media all and (max-width: 1024px){
   .intro__title{
     max-width: 720px;
   }
 }
+@media all and (max-width: 321px){
+  .intro__title{
+    max-width: 230px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+

@@ -3,16 +3,4 @@
     flex-direction: row;
     width: fit-content;
     column-gap: 18px;
-    margin: 0 48px 0 0;
-    padding: 18px 0 2px 0;
-}
-@media all and (max-width: 1023px) {
-    .header__lang{
-        margin: 0 24px 0 0;
-    }
-}
-@media all and (max-width: 767px) {
-    .header__lang{
-        margin: 0 16px 0 0;
-    }
 }

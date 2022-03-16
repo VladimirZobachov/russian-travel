@@ -1,0 +1,7 @@
+.header__lang_item-link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.header__lang_item-link:hover{
+    text-decoration: underline;
+}

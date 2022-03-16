@@ -1,0 +1,9 @@
+.header__lang_item{
+    display: flex;
+    width: fit-content;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    list-style-type: none;
+}

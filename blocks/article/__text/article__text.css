@@ -2,17 +2,18 @@
     grid-area: text;
     color: #FFFFFF;
     font-size: 18px;
-    padding-left: 16px;
-    padding-right: 16px;
     line-height: 1.63em;
 }
-@media all and (min-width: 1024px){
+@media all and (max-width: 769px){
     .article__text{
-        padding-right: 148px;
+        max-width: 352px;
+        font-size: 16px;
+        line-height: 1.63em;
     }
 }
-@media all and (max-width: 768px){
+@media all and (max-width: 321px){
     .article__text{
-        font-size: 16px;
+        max-width: 288px;
+        margin: auto;
     }
 }

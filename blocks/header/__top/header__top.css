@@ -1,8 +1,25 @@
 .header__top{
     display: flex;
     width: 100%;
+    max-width: 1184px;
     flex-direction: row;
     align-items: center;
-    margin-top: 28px;
+    margin: 28px auto 0 auto;
     justify-content: space-between;
+}
+@media all and (max-width: 1025px){
+    .header__top{
+        max-width: 984px;
+    }
+}
+@media all and (max-width: 769px){
+    .header__top{
+        max-width: 720px;
+    }
+}
+@media all and (max-width: 321px){
+    .header__top{
+        max-width: 288px;
+        margin: 15px auto 0 auto;
+    }
 }

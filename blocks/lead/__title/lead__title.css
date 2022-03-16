@@ -8,8 +8,17 @@
   text-align: center;
   color: white;
 }
-
-@media all and (max-width: 768px) {
+@media all and (max-width: 1025px) {
+  .lead__title{
+    margin: 49px auto 0 auto;
+  }
+}
+@media all and (max-width: 769px) {
+  .lead__title{
+    margin: 38px auto 0 auto;
+  }
+}
+@media all and (max-width: 321px) {
   .lead__title{
     max-width: 288px;
     font-size: 40px;

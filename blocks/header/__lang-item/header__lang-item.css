@@ -6,11 +6,13 @@
     font-size: 24px;
     line-height: 28px;
     list-style-type: none;
-    padding-bottom: 2px;
+    padding: 3px 0 0 0;
 }
-@media all and (max-width: 768px) {
+
+@media all and (max-width: 321px) {
     .header__lang-item{
         font-size: 18px;
         line-height: 20px;
+        padding: 0;
     }
 }

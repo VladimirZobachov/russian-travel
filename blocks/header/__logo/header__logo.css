@@ -1,18 +1,11 @@
 .header__logo{
     align-self: flex-start;
-    margin-left: 48px;
     width: 176px;
     height: 52px;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 321px){
     .header__logo{
         width: 142px;
         height: 42px;
-        margin-left: 16px;
-    }
-}
-@media all and (max-width: 1023px) {
-    .header__lang{
-        margin: 0 24px 0 0;
     }
 }

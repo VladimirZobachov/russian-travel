@@ -3,10 +3,10 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 24px;
+    margin: 0 auto 24px auto;
     align-self: start;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 321px) {
     .footer__copyright{
         padding-left: 16px;
         flex-direction: column;

@@ -1,3 +1,19 @@
 .articles{
-    margin-top: 12px;
+    margin: 22px auto 0 auto;
+    max-width: 984px;
+}
+@media all and (max-width: 1025px){
+    .articles{
+        max-width: 928px;
+    }
+}
+@media all and (max-width: 769px){
+    .articles{
+        max-width: 720px;
+    }
+}
+@media all and (max-width: 321px){
+    .articles{
+        margin: 10px auto 0 auto;
+    }
 }
