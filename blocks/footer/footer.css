@@ -18,3 +18,9 @@
         margin: 90px auto 0 auto;
     }
 }
+@media all and (max-width: 520px){
+    .footer{
+        max-width: 320px;
+        margin: 65px auto 0 auto;
+    }
+}

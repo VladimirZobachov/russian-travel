@@ -4,7 +4,7 @@
     "title props"
     "img text";
     width: 100%;
-    gap: 24px;
+    gap: 40px;
     padding-top: 80px;
 }
 @media all and (max-width: 1025px){
@@ -18,13 +18,14 @@
         padding-top: 65px;
     }
 }
-@media all and (max-width: 321px){
+@media all and (max-width: 520px){
     .article{
         grid-template-areas:
         "title"
         "props"
         "img"
         "text";
-        gap: 31px;
+        gap: 26px;
+        padding-top:34px;
     }
 }

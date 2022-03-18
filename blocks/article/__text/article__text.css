@@ -11,9 +11,10 @@
         line-height: 1.63em;
     }
 }
-@media all and (max-width: 321px){
+@media all and (max-width: 521px){
     .article__text{
         max-width: 288px;
         margin: auto;
+        line-height: 1.62em;
     }
 }

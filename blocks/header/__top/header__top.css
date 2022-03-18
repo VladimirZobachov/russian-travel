@@ -9,7 +9,7 @@
 }
 @media all and (max-width: 1025px){
     .header__top{
-        max-width: 984px;
+        max-width: 928px;
     }
 }
 @media all and (max-width: 769px){
@@ -17,7 +17,7 @@
         max-width: 720px;
     }
 }
-@media all and (max-width: 321px){
+@media all and (max-width: 520px){
     .header__top{
         max-width: 288px;
         margin: 15px auto 0 auto;

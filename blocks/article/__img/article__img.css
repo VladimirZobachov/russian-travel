@@ -2,7 +2,6 @@
     grid-area: img;
     width: 100%;
     max-width: 460px;
-    padding-top: 23px;
 }
 @media all and (max-width: 1025px){
     .article__img{
@@ -13,6 +12,7 @@
 @media all and (max-width: 769px){
     .article__img{
         max-width: 340px;
+        padding-top: 23px;
     }
 }
 @media all and (max-width: 321px){

@@ -17,5 +17,11 @@
 @media all and (max-width: 769px){
   .intro__text{
     line-height: 162%;
+    max-width: 520px;
+  }
+}
+@media all and (max-width: 520px){
+  .intro__text{
+    max-width: 320px;
   }
 }
